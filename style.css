@@ -1,0 +1,129 @@
+.bouts-custom {
+    padding-top: 60px;
+  }
+  .bouts-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .bouts-text {
+    flex: 1;
+  }
+  .bouts-image {
+    flex: 1;
+    max-width: 100%;
+  }
+  .services-section img {
+    max-width: 100%;
+    border: 2px solid #000080;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .bouts-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .bouts-image {
+      margin-top: 20px;
+    }
+    .carousel-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .carousel-inner {
+      margin-top: 20px;
+      padding: 0 20px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-right:70px;
+    }
+    .carousel-caption {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 200px;
+      margin-left: 100px;
+    }
+    #textCarousel {
+      width: 100%;
+    }
+    .carousel-item {
+      padding: 0 15px;
+    }
+  }
+  .carousel-container {
+    margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 30px;
+}
+
+.carousel-inner {
+background-color: #f8f9fa;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: auto;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-right: 1950px; 
+padding-right: 200px;
+}
+
+.carousel-caption {
+position: relative;
+color: #000080;
+text-align: center;
+margin-right: 320px;
+}
+
+.carousel-caption p {
+font-style: normal;
+font-size: medium;
+margin: 0;
+}
+.box-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.box {
+width: calc(50% - 20px);
+margin: 10px;
+border: 1px solid #ccc;
+border-radius: 8px;
+overflow: hidden;
+position: relative;
+}
+
+.box-img {
+text-align: center;
+padding: 10px 0;
+}
+
+.box-img img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+.box-content {
+padding: 20px;
+}
+
+@media (max-width: 768px) {
+.box {
+  width: calc(100% - 20px);
+}
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+}
